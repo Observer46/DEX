@@ -19,10 +19,32 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DEXGameButton.cpp" />
+    <ClCompile Include="DEXGameObject.cpp" />
+    <ClCompile Include="DEXGameSlider.cpp" />
+    <ClCompile Include="DEXGameSliderBezier.cpp" />
+    <ClCompile Include="DEXGameSliderLinear.cpp" />
+    <ClCompile Include="DEXGameSliderPerfectCircle.cpp" />
+    <ClCompile Include="DEXMap.cpp" />
+    <ClCompile Include="DEXMenu.cpp" />
+    <ClCompile Include="DEXMenuButton.cpp" />
+    <ClCompile Include="DEXObject.cpp" />
+    <ClCompile Include="DEXTimingSection.cpp" />
     <ClCompile Include="GameWindow.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DEXGameButton.h" />
+    <ClInclude Include="DEXGameObject.h" />
+    <ClInclude Include="DEXGameSlider.h" />
+    <ClInclude Include="DEXGameSliderBezier.h" />
+    <ClInclude Include="DEXGameSliderLinear.h" />
+    <ClInclude Include="DEXGameSliderPerfectCircle.h" />
+    <ClInclude Include="DEXMap.h" />
+    <ClInclude Include="DEXMenu.h" />
+    <ClInclude Include="DEXMenuButton.h" />
+    <ClInclude Include="DEXObject.h" />
+    <ClInclude Include="DEXTimingSection.h" />
     <ClInclude Include="GameWindow.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -13,6 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{6ced69b9-7c13-4a6c-9260-90d636380927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{a19b0a0b-9dbd-4eb9-9373-b1f2e1407e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay">
+      <UniqueIdentifier>{635c8735-b31f-4be1-8e00-f0efc4c62719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameplay">
+      <UniqueIdentifier>{c85f307f-5361-4617-8e7d-72702a73003a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay\Map">
+      <UniqueIdentifier>{643b478b-abe0-4d6a-8ed7-f053954b98de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameplay\Silders">
+      <UniqueIdentifier>{06aa58ed-5b89-483e-9430-cccdc21cafc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameplay\Silders">
+      <UniqueIdentifier>{33da7bfd-cf94-4ad8-a4c5-14b5d0ee815c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameplay\Map">
+      <UniqueIdentifier>{04b5447e-4850-4d38-b814-db685d662e64}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -21,10 +45,76 @@
     <ClCompile Include="GameWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DEXObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXGameSlider.cpp">
+      <Filter>Source Files\Gameplay\Silders</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXMenuButton.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXGameSliderBezier.cpp">
+      <Filter>Source Files\Gameplay\Silders</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXMap.cpp">
+      <Filter>Source Files\Gameplay\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXTimingSection.cpp">
+      <Filter>Source Files\Gameplay\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXGameButton.cpp">
+      <Filter>Source Files\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXGameObject.cpp">
+      <Filter>Source Files\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXGameSliderLinear.cpp">
+      <Filter>Source Files\Gameplay\Silders</Filter>
+    </ClCompile>
+    <ClCompile Include="DEXGameSliderPerfectCircle.cpp">
+      <Filter>Source Files\Gameplay\Silders</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameWindow.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXMenu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXMenuButton.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXGameSlider.h">
+      <Filter>Header Files\Gameplay\Silders</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXGameSliderBezier.h">
+      <Filter>Header Files\Gameplay\Silders</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXMap.h">
+      <Filter>Header Files\Gameplay\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXTimingSection.h">
+      <Filter>Header Files\Gameplay\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXGameObject.h">
+      <Filter>Header Files\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXGameButton.h">
+      <Filter>Header Files\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXGameSliderLinear.h">
+      <Filter>Header Files\Gameplay\Silders</Filter>
+    </ClInclude>
+    <ClInclude Include="DEXGameSliderPerfectCircle.h">
+      <Filter>Header Files\Gameplay\Silders</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
